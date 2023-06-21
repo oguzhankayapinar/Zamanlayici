@@ -16,7 +16,7 @@ function App() {
 
         <FlipClockCountdown
           className='flip-clock'
-          to={new Date().getTime() + 48 * 3600 * 1000 + 5000}
+          to={new Date().getTime() + 96 * 3600 * 1000 + 5000}
           labels={["GÜN", "SAAT", "DAKİKA", "SANİYE"]}
           duration={0.5}
           style={{ fccDigitBlockWidth: "20px" }}
